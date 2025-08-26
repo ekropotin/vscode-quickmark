@@ -1,0 +1,79 @@
+# VSCode extension build ignore file
+
+# Source files (TypeScript will be compiled to dist/)
+src/**
+tsconfig.json
+
+# Development and build tools
+.vscode/**
+.vscode-test/**
+webpack.config.js
+scripts/**
+
+# Node modules and package files
+node_modules/**
+package-lock.json
+.npm
+
+# Git and version control
+.git/**
+.gitignore
+
+# Documentation and development files
+CONTRIBUTING.md
+CHANGELOG.md
+.github/**
+
+# Test files
+out/test/**
+test/**
+*.test.*
+
+# Temporary and cache files
+.DS_Store
+.vscode-test
+*.vsix
+
+# Environment and config files
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+.nyc_output/
+
+# ESLint cache
+.eslintcache
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+# Keep only essential files for the extension
+!README.md
+!icon.png
+!bin/**
+!dist/**
+!package.json
