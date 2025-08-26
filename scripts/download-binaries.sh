@@ -147,6 +147,12 @@ main() {
     # Check dependencies
     check_dependencies
 
+    # Create bin directory if it doesn't exist
+    if [ ! -d "$BIN_DIR" ]; then
+        print_info "Creating bin directory: $BIN_DIR"
+        mkdir -p "$BIN_DIR"
+    fi
+
     # Get version from package.json
     local version
     version=$(get_version)

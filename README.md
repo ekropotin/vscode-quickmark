@@ -1,6 +1,6 @@
 # QuickMark VSCode Extension
 
-A lightning-fast Markdown linter for Visual Studio Code, powered by the QuickMark LSP server written in Rust.
+A lightning-fast Markdown linter for Visual Studio Code, powered by the [QuickMark LSP](https://github.com/ekropotin/quickmark) server written in Rust.
 
 ![Demo](https://github.com/ekropotin/quickmark/raw/development/assets/demo.gif)
 
@@ -16,7 +16,7 @@ A lightning-fast Markdown linter for Visual Studio Code, powered by the QuickMar
 
 ### Simple Installation
 
-1. Install the extension from the VSCode marketplace
+1. Install the extension from the [VSCode marketplace](https://marketplace.visualstudio.com/items?itemName=ekropotin.vscode-quickmark)
 2. Start using it immediately - the extension includes pre-built QuickMark server binaries for all major platforms
 
 The extension automatically detects your platform and uses the appropriate bundled binary.

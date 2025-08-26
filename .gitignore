@@ -162,4 +162,4 @@ tmp/
 temp/
 
 # Binaries (uncomment if you don't want to commit downloaded binaries)
-# bin/
+bin/
