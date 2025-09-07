@@ -2,7 +2,7 @@
   "name": "vscode-quickmark",
   "displayName": "QuickMark Linter",
   "description": "Lightning-fast Markdown linter for VSCode using QuickMark LSP server",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "ekropotin",
   "repository": {
     "type": "git",
@@ -134,6 +134,6 @@
     "undici": "5.28.4"
   },
   "quickmarkServer": {
-    "version": "1.0.0-beta.2"
+    "version": "1.1.0"
   }
 }
